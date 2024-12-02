@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 5000px;
+}
+
+/* Barra de navegação */
+/* nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    
+} */
+
+.fixarTopo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.barra-navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#logo-navegacao {
+    width: 80px;
+}
+
+#link-logo-navegacao {
+    text-decoration: none;
+    color: #000;
+    font-family: "Roboto Mono", monospace, sans-serif;
+    font-size: 35px;
+    letter-spacing: -4px;
+    font-weight: 300;
+}
+
+#reajuste-logotipo {
+    font-size: 28px;
+    display: block;
+    margin-left: 126px;
+    margin-top: -38px;
+}
+
+#links-navegacao a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-family: "Funnel Display", sans-serif;
+    margin-left: 25px;
+    font-weight: 500;
+    border: 1px solid #000000d8;
+    padding: 8px 15px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+#links-navegacao a:hover {
+    background: #000;
+    color: #FFF;
+    transition: 0.3s;
+}
+
+#login-navegacao button{
+    color: #FFF;
+    background-color: #000000d8;
+    border-radius: 9px;
+    border: 1.3px solid #000;
+    padding: 8px 15px;
+    margin-left: 20px;
+    font-family: "Funnel Display", sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#login-navegacao button:hover {
+    color: #000000d8;
+    background-color: #FFF;
+    transition: 0.3s;
+}
+
+/* Primeira section */
+#primeira-sessao {
+    margin-top: 105px;
+}
